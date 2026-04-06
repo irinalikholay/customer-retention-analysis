@@ -44,4 +44,24 @@ Database file created : `database/customer_retention.db`
 Table available: `orders`
 
 
-## 
+## Cohort Analysis
+
+In this step, cohort data was prepared using SQL.
+
+What was done:
+
+- Identified each customer's first purchase date 
+- Assigned each customer to a cohort based on their first purchase month (`cohort_month`)
+- Extracted the order month for each transaction (`order_month`)
+- Calculated the number of months since the first purchase (`months_since_first_purchase`)
+
+Result:
+
+A new dataset `cohort_data` was created containing:
+- `customer_id`
+- `first_purchase_date`
+- `cohort_month`
+- `order_month`
+- `months_since_first_purchase`
+
+##
