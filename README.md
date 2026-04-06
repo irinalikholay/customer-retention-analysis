@@ -31,3 +31,17 @@ In this step, the dataset was cleaned and prepared for analysis.
 - Created Revenue column
 
 The Dataset is ready for cohort analysis.
+
+## Database Creation 
+
+In this step, the cleaned dataset was saved into a SQLite database.
+
+What was done:
+- Created a SQLite database.
+- Saved cleaned data into a table `orders`
+
+Database file created : `database/customer_retention.db`
+Table available: `orders`
+
+
+## 

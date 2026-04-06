@@ -1,5 +1,6 @@
 import pandas as pd
 from pathlib import Path
+import sqlite3
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 DATA_PATH = BASE_DIR / "data" / "raw" / "online_retail_II.csv"
@@ -75,7 +76,29 @@ def clean_data(df):
     return df
 
 
+### SAVE TO SQLITE DATABASE ###
+
+def save_to_database(df):
+    print("\nSaving to SQLite database...\n")
+
+    db_path = BASE_DIR / "database" / "customer_retention.db"
+
+    conn = sqlite3.connect(db_path)
+
+    df.to_sql(
+        "orders",
+        conn,
+        if_exists="replace",
+        index=False
+    )
+
+    conn.close()
+
+    print("Data successfully saved to database.")
+
+
 if __name__ == "__main__":
     df = explore_data()
     df_clean = clean_data(df)
+    save_to_database(df_clean)
 
