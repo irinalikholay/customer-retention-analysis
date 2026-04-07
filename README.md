@@ -64,4 +64,12 @@ A new dataset `cohort_data` was created containing:
 - `order_month`
 - `months_since_first_purchase`
 
-##
+## Cohort Table Creation 
+
+In this step, a cohort dataset was created and saved as a table in the database.
+
+As a result a new table ws created - `cohort_data`
+
+this table will be used for retention analysis.
+
+## 
