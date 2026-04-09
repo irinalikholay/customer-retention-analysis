@@ -24,7 +24,7 @@ cohort_data AS (
             +
             (CAST(strftime('%m', o.InvoiceDate) AS INTEGER) - 
              CAST(strftime('%m', fp.first_purchase_date) AS INTEGER))
-        ) AS month_since_first_purchase
+        ) AS months_since_first_purchase
 
     FROM orders o
     JOIN first_purchase fp
