@@ -72,4 +72,17 @@ As a result a new table ws created - `cohort_data`
 
 this table will be used for retention analysis.
 
-## 
+## Retention Aggregation 
+
+In this step, I calculated customer retention by cohort over time.
+
+The goal is to understand how many customers return after their first purchase and how retention evolves across months.
+
+What was done:
+- Used `cohort_data` table 
+- Grouped data by:
+  - `cohort_month`
+  - `months_since_first_purchase`
+- Calculated number of `active_customers` 
+
+##
