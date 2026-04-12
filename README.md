@@ -96,3 +96,17 @@ What was done:
 
 Result:
 Got retention metric to compare cohorts.
+
+## Cohort Pivot (Python)
+
+In this step I created a pivot table to better understand retention by cohort.
+
+What was done:
+- Connected to SQL dataset
+- Loaded retention data into pandas
+- Build pivot table
+- Saved result as CSV file
+
+Now retention is structured as a matrix , which is easier to analyze and visualize.
+
+##
