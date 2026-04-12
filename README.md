@@ -85,4 +85,14 @@ What was done:
   - `months_since_first_purchase`
 - Calculated number of `active_customers` 
 
-##
+## Retention Rate
+
+In this step, I calculated retention rate for each cohort over time.
+
+What was done:
+- Counted active clients per cohort
+- Defined cohort size (month 0)
+- Calculated retention rate
+
+Result:
+Got retention metric to compare cohorts.
