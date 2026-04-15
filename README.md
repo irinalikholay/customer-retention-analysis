@@ -109,4 +109,16 @@ What was done:
 
 Now retention is structured as a matrix , which is easier to analyze and visualize.
 
+## Visualization
+
+In this step I created a Retention Heatmap.
+
+What was done:
+- Loaded cohort pivot table from CSV
+- Built heatmap using seaborn
+- Saved result as image
+
+File:
+src/visualization.py
+
 ##
