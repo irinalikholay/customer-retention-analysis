@@ -121,4 +121,34 @@ What was done:
 File:
 src/visualization.py
 
-##
+## BUSINESS INSIGHTS
+
+The goal is to understand how customer retention changes over time and between cohorts.
+
+# What I see
+
+- All cohorts start with 100% retention in month 0 (expected)
+- There is a sharp drop from month 0 to month 1 across all cohorts
+- After that, retention decreases more gradually
+- Earlier cohorts (2009-2010) tend to have slightly better retention than later ones
+
+# Insights
+
+- The biggest loss of customers happens right after the first purchase 
+  ( many customers do not return for a second order)
+- Customers who stay after the first month are most likely to stay longer 
+  (retention curve becomes more stable over time)
+- Newer cohorts show weaker retention 
+  (possible changes in product, marketing or customer quality)
+
+# Hypotheses
+
+- Customers might not see enough value after the first purchase
+  (lack of follow-up communication , promotions or onboarding)
+- Traffic quality may have changed over time
+  (newer cohorts could come from lower-quality marketing channels)
+
+# Conclusion 
+
+The main problem is early churn.
+Improving the first user experience and encouraging a second purchase could significantly increase overall retention.
