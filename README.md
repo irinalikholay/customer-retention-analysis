@@ -119,7 +119,9 @@ What was done:
 - Saved result as image
 
 File:
-src/visualization.py
+![Retention Heatmap](data/processed/retention_heatmap.png)
+
+
 
 ## BUSINESS INSIGHTS
 
